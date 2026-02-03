@@ -1,9 +1,12 @@
 name: Vendo arquivos compartilhados entre Steps
 
+# on:
+#   push:
+#     branches:
+#       - main
+
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch #só roda com o play
 
 jobs:
   job1:
